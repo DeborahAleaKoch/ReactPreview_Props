@@ -1,5 +1,6 @@
 import "./App.css";
 import { ProductCard } from "./components/Products";
+import { products } from "./data";
 
 import { ToDoList } from "./components/TodoList";
 
@@ -10,7 +11,7 @@ function App() {
 			<ToDoList />
 			<br></br>
 			<h1>React-Props-Products-Level-2_1</h1>
-			<ProductCard />
+			<ProductCard products={products} />
 		</>
 	);
 }

@@ -1,6 +1,10 @@
 import { ProductDetails, products } from "../data";
 
-export function ProductCard() {
+interface Props {
+	products: ProductDetails[];
+}
+
+export function ProductCard({ products }: Props) {
 	return (
 		<div className='grid grid-cols-3'>
 			{products.map((product) => {
