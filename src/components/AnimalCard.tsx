@@ -21,7 +21,7 @@ export const AnimalCard: React.FunctionComponent<Props> = ({ animal }) => {
 			<div className='bg-slate-500'>
 				<ul className='list-disc px-8'>
 					{animal.funFacts.map((funFact) => (
-						<li>{funFact}</li>
+						<li key={funFact}>{funFact}</li>
 					))}
 				</ul>
 			</div>
