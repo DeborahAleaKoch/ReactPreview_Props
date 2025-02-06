@@ -6,7 +6,7 @@ interface Props {
 
 export function AnimalCard({ animals }: Props) {
 	return (
-		<div className='grid grid-cols-3 gap-5 mx-3'>
+		<div className='grid grid-cols-3 gap-5 mx-3 pb-5'>
 			{animals.map((animal) => {
 				return (
 					<div className=''>
