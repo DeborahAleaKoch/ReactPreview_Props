@@ -555,19 +555,7 @@ export const animals: Animal[] = [
 		],
 		emoji: "🐉",
 	},
-	{
-		name: "Koala",
-		species: "Phascolarctos cinereus",
-		habitat: "Eucalyptus Forests",
-		lifespan: 15,
-		diet: "Herbivore",
-		funFacts: [
-			"Koalas are marsupials and carry their underdeveloped young in a pouch.",
-			"They primarily eat eucalyptus leaves and are known for their sleepy demeanor.",
-			"Koalas have a unique digestive system adapted to detoxify eucalyptus toxins.",
-		],
-		emoji: "🐨",
-	},
+
 	{
 		name: "Hedgehog",
 		species: "Erinaceidae",
@@ -580,31 +568,5 @@ export const animals: Animal[] = [
 			"Hedgehogs are excellent swimmers and climbers.",
 		],
 		emoji: "🦔",
-	},
-	{
-		name: "Pangolin",
-		species: "Pholidota",
-		habitat: "Tropical Regions",
-		lifespan: 20,
-		diet: "Insectivore",
-		funFacts: [
-			"Pangolins are covered in tough, overlapping scales made of keratin.",
-			"They are the only mammals with this type of protective armor.",
-			'Pangolins are often referred to as "scaly anteaters."',
-		],
-		emoji: "🦛",
-	},
-	{
-		name: "Gazelle",
-		species: "Antilopinae",
-		habitat: "Grasslands",
-		lifespan: 12,
-		diet: "Herbivore",
-		funFacts: [
-			"Gazelles are known for their incredible speed and agility.",
-			"They have a keen sense of hearing and eyes positioned to detect predators.",
-			"Gazelles are social animals and often form large herds for protection.",
-		],
-		emoji: "🦌",
 	},
 ];
